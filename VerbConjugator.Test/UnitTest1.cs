@@ -201,6 +201,20 @@ namespace VerbConjugator.Test
 			Assert.Equal("correrán", verb.Conjugate(tense, Person.Ellos));
 		}
 
+		[Fact]
+		public void TestFutureTense_IR()
+		{
+			Verb verb = new Verb("sequir");
+			Tense tense = Tense.Future;
+
+			Assert.Equal("sequiré", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("sequirás", verb.Conjugate(tense, Person.Tú));
+			Assert.Equal("sequirá", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("sequiremos", verb.Conjugate(tense, Person.Nosotros));
+			Assert.Equal("sequiréis", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("sequirán", verb.Conjugate(tense, Person.Ellos));
+		}
+
 
 		[Theory]
 		[InlineData("hablar")]
