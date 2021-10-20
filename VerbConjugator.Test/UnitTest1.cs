@@ -10,7 +10,7 @@ namespace VerbConjugator.Test
 		{
 			Verb verb = new Verb("cantar");
 			Tense tense = Tense.Present;
-			
+
 			Assert.Equal("canto", verb.Conjugate(tense, Person.Yo));
 			Assert.Equal("cantas", verb.Conjugate(tense, Person.Tú));
 			Assert.Equal("canta", verb.Conjugate(tense, Person.Él));
