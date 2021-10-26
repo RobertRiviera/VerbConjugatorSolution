@@ -14,6 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VerbConjugator\VerbConjugator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="VerbConjugator">
       <HintPath>..\VerbConjugator\bin\Debug\netcoreapp3.1\VerbConjugator.dll</HintPath>
     </Reference>

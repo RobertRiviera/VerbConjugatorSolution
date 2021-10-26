@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Threading.Tasks;
 
 namespace Language.Spanish
 {
@@ -55,7 +51,7 @@ namespace Language.Spanish
 
 			Infinitive = infinitive.ToLowerInvariant();
 		}
-		
+
 
 		public static bool IsValidInfinitive(string s)
 		{
@@ -68,7 +64,7 @@ namespace Language.Spanish
 				"IR" => true,
 				"ER" => true,
 				_ => false
-			};			
+			};
 		}
 
 
@@ -85,7 +81,7 @@ namespace Language.Spanish
 					Person.Ellos => Infinitive + "án",
 					_ => ""
 				};
-			
+
 			return
 			Type switch
 			{
