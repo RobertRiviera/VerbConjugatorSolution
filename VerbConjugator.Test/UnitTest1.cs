@@ -25,7 +25,7 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("aprender");
 			Tense tense = Tense.Present;
 
-			Assert.Equal("aprendo", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("xaprendo", verb.Conjugate(tense, Person.Yo));
 			Assert.Equal("aprendes", verb.Conjugate(tense, Person.Tú));
 			Assert.Equal("aprende", verb.Conjugate(tense, Person.Él));
 			Assert.Equal("aprendemos", verb.Conjugate(tense, Person.Nosotros));
