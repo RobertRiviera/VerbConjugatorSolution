@@ -12,10 +12,10 @@ namespace VerbConjugator.Test
 			Tense tense = Tense.Present;
 
 			Assert.Equal("canto", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("cantas", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("canta", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("cantas", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("canta", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("cantamos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("cantáis", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("cantï¿½is", verb.Conjugate(tense, Person.Vosotros));
 			Assert.Equal("cantan", verb.Conjugate(tense, Person.Ellos));
 		}
 
@@ -25,11 +25,11 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("aprender");
 			Tense tense = Tense.Present;
 
-			Assert.Equal("xaprendo", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("aprendes", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("aprende", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("aprendo", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("aprendes", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("aprende", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("aprendemos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("aprendéis", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("aprendï¿½is", verb.Conjugate(tense, Person.Vosotros));
 			Assert.Equal("aprenden", verb.Conjugate(tense, Person.Ellos));
 		}
 
@@ -40,10 +40,10 @@ namespace VerbConjugator.Test
 			Tense tense = Tense.Present;
 
 			Assert.Equal("abro", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("abres", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("abre", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("abres", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("abre", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("abrimos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("abrís", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("abrï¿½s", verb.Conjugate(tense, Person.Vosotros));
 			Assert.Equal("abren", verb.Conjugate(tense, Person.Ellos));
 		}
 
@@ -53,9 +53,9 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("hablar");
 			Tense tense = Tense.Preterite;
 
-			Assert.Equal("hablé", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("hablaste", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("habló", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("hablï¿½", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("hablaste", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("hablï¿½", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("hablamos", verb.Conjugate(tense, Person.Nosotros));
 			Assert.Equal("hablasteis", verb.Conjugate(tense, Person.Vosotros));
 			Assert.Equal("hablaron", verb.Conjugate(tense, Person.Ellos));
@@ -67,9 +67,9 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("aprender");
 			Tense tense = Tense.Preterite;
 
-			Assert.Equal("aprendí", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("aprendiste", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("aprendió", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("aprendï¿½", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("aprendiste", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("aprendiï¿½", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("aprendimos", verb.Conjugate(tense, Person.Nosotros));
 			Assert.Equal("aprendisteis", verb.Conjugate(tense, Person.Vosotros));
 			Assert.Equal("aprendieron", verb.Conjugate(tense, Person.Ellos));
@@ -81,9 +81,9 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("sufrir");
 			Tense tense = Tense.Preterite;
 
-			Assert.Equal("sufrí", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("sufriste", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("sufrió", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("sufrï¿½", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("sufriste", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("sufriï¿½", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("sufrimos", verb.Conjugate(tense, Person.Nosotros));
 			Assert.Equal("sufristeis", verb.Conjugate(tense, Person.Vosotros));
 			Assert.Equal("sufrieron", verb.Conjugate(tense, Person.Ellos));
@@ -96,9 +96,9 @@ namespace VerbConjugator.Test
 			Tense tense = Tense.Imperfect;
 
 			Assert.Equal("bailaba", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("bailabas", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("bailaba", verb.Conjugate(tense, Person.Él));
-			Assert.Equal("bailábamos", verb.Conjugate(tense, Person.Nosotros));
+			Assert.Equal("bailabas", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("bailaba", verb.Conjugate(tense, Person.ï¿½l));
+			Assert.Equal("bailï¿½bamos", verb.Conjugate(tense, Person.Nosotros));
 			Assert.Equal("bailabais", verb.Conjugate(tense, Person.Vosotros));
 			Assert.Equal("bailaban", verb.Conjugate(tense, Person.Ellos));
 		}
@@ -109,12 +109,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("vender");
 			Tense tense = Tense.Imperfect;
 
-			Assert.Equal("vendía", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("vendías", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("vendía", verb.Conjugate(tense, Person.Él));
-			Assert.Equal("vendíamos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("vendíais", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("vendían", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("vendï¿½a", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("vendï¿½as", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("vendï¿½a", verb.Conjugate(tense, Person.ï¿½l));
+			Assert.Equal("vendï¿½amos", verb.Conjugate(tense, Person.Nosotros));
+			Assert.Equal("vendï¿½ais", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("vendï¿½an", verb.Conjugate(tense, Person.Ellos));
 		}
 
 		[Fact]
@@ -123,12 +123,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("vivir");
 			Tense tense = Tense.Imperfect;
 
-			Assert.Equal("vivía", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("vivías", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("vivía", verb.Conjugate(tense, Person.Él));
-			Assert.Equal("vivíamos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("vivíais", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("vivían", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("vivï¿½a", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("vivï¿½as", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("vivï¿½a", verb.Conjugate(tense, Person.ï¿½l));
+			Assert.Equal("vivï¿½amos", verb.Conjugate(tense, Person.Nosotros));
+			Assert.Equal("vivï¿½ais", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("vivï¿½an", verb.Conjugate(tense, Person.Ellos));
 		}
 
 		[Fact]
@@ -137,12 +137,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("cantar");
 			Tense tense = Tense.Conditional;
 
-			Assert.Equal("cantaría", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("cantarías", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("cantaría", verb.Conjugate(tense, Person.Él));
-			Assert.Equal("cantaríamos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("cantaríais", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("cantarían", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("cantarï¿½a", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("cantarï¿½as", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("cantarï¿½a", verb.Conjugate(tense, Person.ï¿½l));
+			Assert.Equal("cantarï¿½amos", verb.Conjugate(tense, Person.Nosotros));
+			Assert.Equal("cantarï¿½ais", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("cantarï¿½an", verb.Conjugate(tense, Person.Ellos));
 		}
 
 		[Fact]
@@ -151,12 +151,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("conocer");
 			Tense tense = Tense.Conditional;
 
-			Assert.Equal("conocería", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("conocerías", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("conocería", verb.Conjugate(tense, Person.Él));
-			Assert.Equal("conoceríamos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("conoceríais", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("conocerían", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("conocerï¿½a", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("conocerï¿½as", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("conocerï¿½a", verb.Conjugate(tense, Person.ï¿½l));
+			Assert.Equal("conocerï¿½amos", verb.Conjugate(tense, Person.Nosotros));
+			Assert.Equal("conocerï¿½ais", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("conocerï¿½an", verb.Conjugate(tense, Person.Ellos));
 		}
 
 		[Fact]
@@ -165,12 +165,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("vivir");
 			Tense tense = Tense.Conditional;
 
-			Assert.Equal("viviría", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("vivirías", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("viviría", verb.Conjugate(tense, Person.Él));
-			Assert.Equal("viviríamos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("viviríais", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("vivirían", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("vivirï¿½a", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("vivirï¿½as", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("vivirï¿½a", verb.Conjugate(tense, Person.ï¿½l));
+			Assert.Equal("vivirï¿½amos", verb.Conjugate(tense, Person.Nosotros));
+			Assert.Equal("vivirï¿½ais", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("vivirï¿½an", verb.Conjugate(tense, Person.Ellos));
 		}
 
 		[Fact]
@@ -179,12 +179,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("tratar");
 			Tense tense = Tense.Future;
 
-			Assert.Equal("trataré", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("tratarás", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("tratará", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("tratarï¿½", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("tratarï¿½s", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("tratarï¿½", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("trataremos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("trataréis", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("tratarán", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("tratarï¿½is", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("tratarï¿½n", verb.Conjugate(tense, Person.Ellos));
 		}
 
 		[Fact]
@@ -193,12 +193,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("correr");
 			Tense tense = Tense.Future;
 
-			Assert.Equal("correré", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("correrás", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("correrá", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("correrï¿½", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("correrï¿½s", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("correrï¿½", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("correremos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("correréis", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("correrán", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("correrï¿½is", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("correrï¿½n", verb.Conjugate(tense, Person.Ellos));
 		}
 
 		[Fact]
@@ -207,12 +207,12 @@ namespace VerbConjugator.Test
 			Verb verb = new Verb("sequir");
 			Tense tense = Tense.Future;
 
-			Assert.Equal("sequiré", verb.Conjugate(tense, Person.Yo));
-			Assert.Equal("sequirás", verb.Conjugate(tense, Person.Tú));
-			Assert.Equal("sequirá", verb.Conjugate(tense, Person.Él));
+			Assert.Equal("sequirï¿½", verb.Conjugate(tense, Person.Yo));
+			Assert.Equal("sequirï¿½s", verb.Conjugate(tense, Person.Tï¿½));
+			Assert.Equal("sequirï¿½", verb.Conjugate(tense, Person.ï¿½l));
 			Assert.Equal("sequiremos", verb.Conjugate(tense, Person.Nosotros));
-			Assert.Equal("sequiréis", verb.Conjugate(tense, Person.Vosotros));
-			Assert.Equal("sequirán", verb.Conjugate(tense, Person.Ellos));
+			Assert.Equal("sequirï¿½is", verb.Conjugate(tense, Person.Vosotros));
+			Assert.Equal("sequirï¿½n", verb.Conjugate(tense, Person.Ellos));
 		}
 
 
